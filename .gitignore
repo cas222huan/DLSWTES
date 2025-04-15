@@ -1,0 +1,8 @@
+data/*
+figs/*
+result/*
+matlab_plot/data/*
+!data/.gitkeep
+!figs/.gitkeep
+!result/.gitkeep
+!matlab_plot/data/.gitkeep
