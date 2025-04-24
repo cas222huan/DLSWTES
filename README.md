@@ -1,6 +1,21 @@
 # DL-SW-TES
 Official codes and data for the paper entitled "Deep learning coupled with split window and temperature-emissivity separation (DL-SW-TES) method improves clear-sky high-resolution land surface temperature estimation".
 
+If our work is helpful to you, please kindly cite our paper as:
+```
+@article{ZHANG2025,
+title = {Deep learning coupled with split window and temperature-emissivity separation (DL-SW-TES) method improves clear-sky high-resolution land surface temperature estimation},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {225},
+pages = {1-18},
+year = {2025},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2025.04.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271625001534},
+author = {Huanyu Zhang and Tian Hu and Bo-Hui Tang and Kanishka Mallick and Xiaopo Zheng and Mengmeng Wang and Albert Olioso and Vincent Rivalland and Darren Ghent and Agnieszka Soszynska and Zoltan Szantoi and Lluís Pérez-Planells and Frank M. Göttsche and Dražen Skoković and José A. Sobrino}
+}
+```
+Feel free to visit [my personal website](https://cas222huan.github.io//) for more information regarding LST retrieval and thermal infrared remote sensing.
 ## Filetree
 ```
 .
@@ -25,10 +40,3 @@ Official codes and data for the paper entitled "Deep learning coupled with split
 * Certain sections of the code (e.g., the TES algorithm, interpolation of ERA5 atmospheric profiles to match ECOSTRESS pixels) are not included. These codes are copyrighted by the European ECOSTRESS Hub (EEH) and we do not have the permission to share them.
 * Due to differences in hardware (e.g., GPU, CUDA versions) and software environments (e.g., Python packages), exact replication of the PyTorch optimization results may not be guaranteed across different devices. However, the final performance is expected to remain similar.
 * Data and results of this project are provided in https://drive.google.com/file/d/1IBScq_MzSLVwkHtxoRs-dL6-bMHKR8Cf/view?usp=sharing. In-situ LST measurements from the KIT & Copernicus network (PI: Prof. Frank M. Göttsche) and the GCU network (PI: José A. Sobrino) are not publicly available. Please contact the respective PIs for access.
-
----
-If our work is helpful to you, please kindly cite our paper as:
-```
-
-```
-If you are interested in LST retrieval and thermal infrared remote sensing topics, feel free to visit [my personal website](https://cas222huan.github.io//) for more information.
